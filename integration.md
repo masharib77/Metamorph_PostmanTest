@@ -6,36 +6,37 @@ MetamorphOS allows users to integrate their own external APIs into the platform.
 Users can access integrations from the Integrations section, where two options are available:
 
 1. **Marketplace Integrations**  
-The Marketplace provides a list of pre-configured integrations that can be quickly added to the platform.  
-Users can simply select an integration and add their API credentials to start using it.  
-Examples of available integrations include:  
-- Google Drive – Access and manage files stored in Google Drive.  
-- Google Calendar – Synchronize events and schedules.  
-- Gmail – Send, receive, and manage emails through the platform.  
-- Google Gemini – Utilize AI capabilities for automation and intelligent workflows.  
+   The Marketplace provides a list of pre-configured integrations that can be quickly added to the platform.  
+   Users can simply select an integration and add their API credentials to start using it.  
+   Examples of available integrations include:  
+   - Google Drive – Access and manage files stored in Google Drive.  
+   - Google Calendar – Synchronize events and schedules.  
+   - Gmail – Send, receive, and manage emails through the platform.  
+   - Google Gemini – Utilize AI capabilities for automation and intelligent workflows.  
 
-To add an integration from the marketplace:  
-    1. Navigate to Marketplace in the Integrations section.  
-    2. Select the desired service.  
-    3. Click Add.  
-    4. Then Click Authenticate or Sign In  
-    5. Provide the required API Key or authentication credentials.  
-    6. Save the configuration to activate the integration.  
+   To add an integration from the marketplace:
+   
+   1. Navigate to **Marketplace** in the **Integrations** section.  
+   2. Select the desired service.  
+   3. Click **Add**.  
+   4. Click **Authenticate** or **Sign In**.  
+   5. Provide the required **API Key** or authentication credentials.  
+   6. Save the configuration to activate the integration.  
 
-Once configured, the integration becomes available for use within MetamorphOS workflows and automation processes.
+   Once configured, the integration becomes available for use within MetamorphOS workflows and automation processes.
 
-2. Create New Integration  
-This option allows users to create a **custom integration** using their own **external API**.  
+2. **Create New Integration**  
+    This option allows users to create a **custom integration** using their own **external API**.  
 
-With this option, users can:  
-- Connect **proprietary** or **third-party services**.  
-- Configure **API keys** and **authentication details**.  
-- Define **custom workflows** and **data exchanges**.  
-- Extend the platform according to specific **organizational requirements**.  
+    With this option, users can:  
+    - Connect **proprietary** or **third-party services**.  
+    - Configure **API keys** and **authentication details**.  
+    - Define **custom workflows** and **data exchanges**.  
+    - Extend the platform according to specific **organizational requirements**.  
 
-This option is recommended when integrating **internal systems** or APIs that are **not available in the marketplace**.  
+    This option is recommended when integrating **internal systems** or APIs that are **not available in the marketplace**.  
 
-You can also import your integrations using a **spec file** or **OpenAPI spec**.
+    You can also import your integrations using a **spec file** or **OpenAPI spec**.
 
 # API Integration Configuration
 
