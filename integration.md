@@ -39,7 +39,11 @@ Users can access integrations from the Integrations section, where two options a
 
     This option is recommended when integrating **internal systems** or APIs that are **not available in the marketplace**.  
 
+    <img src="images/Picture3.png" alt="Workflow Diagram" width="700" height="500">
+
     You can also import your integrations using a **spec file** or **OpenAPI spec**.
+
+    <img src="images/Picture4.png" alt="Workflow Diagram" width="700" height="500">
 
 # API Integration Configuration
 
