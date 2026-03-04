@@ -24,4 +24,4 @@ jobs:
                 "repository": "${{ github.repository }}",
                 "url": "${{ github.event.pull_request.html_url }}"
               }' \
-          https://app.metamorphos.io/api/8b989a66-abda-42e0-b362-e1eeed08fa32>/webhook
+          https://app.metamorphos.io/api/8b989a66-abda-42e0-b362-e1eeed08fa32/webhook
