@@ -26,6 +26,8 @@ Users can access integrations from the Integrations section, where two options a
 
    Once configured, the integration becomes available for use within MetamorphOS workflows and automation processes.
 
+<img src="images/Picture2.png" alt="Workflow Diagram" width="700" height="500">
+
 2. **Create New Integration**  
     This option allows users to create a **custom integration** using their own **external API**.  
 
