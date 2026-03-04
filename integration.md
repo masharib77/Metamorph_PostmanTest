@@ -2,6 +2,7 @@
 
 MetamorphOS allows users to integrate their own external APIs into the platform. This enables the system to connect with third-party services and custom applications, allowing seamless data exchange and extended functionality. By integrating external APIs, users can automate workflows, retrieve or send data to other systems, and customize the platform according to their specific requirements. This flexibility allows MetamorphOS to adapt to different tools and services used within an organization.
 
+![Workflow Diagram](images\Picture1.png)
 
 Users can access integrations from the Integrations section, where two options are available:
 
