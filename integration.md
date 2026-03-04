@@ -43,7 +43,7 @@ Users can access integrations from the Integrations section, where two options a
 
     You can also import your integrations using a **spec file** or **OpenAPI spec**.
 
-    <img src="images/Picture4.png" alt="Workflow Diagram" width="700" height="500">
+    ![Workflow Diagram](images/Picture4.png)
 
 # API Integration Configuration
 
@@ -71,6 +71,8 @@ The **Base URL** represents the root address of the external API.
 - All API endpoints will be built using this base URL.  
 - It ensures that every request sent from MetamorphOS is directed to the correct API service.  
 
+<img src="images/Picture5.png" alt="Workflow Diagram" width="700" height="500">
+
 ### Authentication
 
 This section specifies the authentication method required to access the API.  
@@ -78,11 +80,15 @@ This section specifies the authentication method required to access the API.
 Depending on the external service, authentication may include:  
 
 - **API Keys**  
+
+    ![Workflow Diagram](images/Picture6.png)
+
 - **OAuth**  
 - **Basic Authentication**  
 
 Proper authentication ensures that requests sent from MetamorphOS are authorized by the external system.  
 
+![Workflow Diagram](images/Picture7.png)
 ---
 
 ## Endpoints
@@ -108,6 +114,8 @@ Each endpoint represents a specific action or operation performed through the ex
 
 Once configured, these endpoints can be used within MetamorphOS workflows and automation processes.  
 
+<img src="images/Picture8.png" alt="Workflow Diagram" width="700" height="500">
+
 ---
 
 ### Endpoint Configuration Fields
@@ -129,6 +137,8 @@ The **Path** specifies the API route relative to the Base URL.
 
 Dynamic parameters can be used with `${your_variable_name}` within the path to make the endpoint reusable.  
 
+<img src="images/Picture9.png" alt="Workflow Diagram" width="700" height="500">
+
 #### Request Parameters
 
 The **Request Parameters** section defines the inputs required when calling the endpoint.  
@@ -139,6 +149,8 @@ Parameter types may include:
 - **BODY** – Parameters included in the request body  
 - **QUERY** – Parameters appended to the URL as query strings  
 - **HEADER** – Parameters included in request headers  
+
+![Workflow Diagram](images/Picture10.png)
 
 #### Response Schema
 
@@ -170,6 +182,8 @@ Transformations may include:
 
 After successfully configuring and saving the endpoint, the integration will become active within the system and the **green dot** appears indicating it is active. Once the setup is completed, the configured API call will appear in the **API Call** section of the integration dashboard.  
 
+<img src="images/Picture11.png" alt="Workflow Diagram" width="700" height="500">
+
 ---
 
 ## Using Integrations in Workflows
@@ -180,21 +194,29 @@ Follow these steps to use an integration within a workflow:
    Navigate to the Builder Dashboard, create new or use an existing process.  
 
 2. **Add a New Step**  
-   Right-click within the workflow canvas and select **Add Step**.  
+   Right-click within the workflow canvas and select **Add Step**. 
+
+   ![Workflow Diagram](images/Picture12.png) 
 
 3. **Open the Integration Panel**  
    From the available step options, select **Integration** from the top middle to open the integration panel.  
 
 4. **Select an Integration**  
-   The panel will display all available integrations that have been configured in the system.  
+   The panel will display all available integrations that have been configured in the system. 
+
+   ![Workflow Diagram](images/Picture13.png) 
 
 5. **Choose a Connector**  
    Click on the desired connector. A dropdown menu will appear showing all the available endpoints associated with that integration.  
+
+   ![Workflow Diagram](images/Picture14.png) 
 
 6. **Select the Endpoint**  
    Choose the endpoint you want to use for the workflow action.  
 
 7. **Add the Integration Step**  
    Click **Add** to include the selected integration endpoint in the workflow.  
+
+   ![Workflow Diagram](images/Picture15.png) 
 
 Once added, the workflow will be able to execute the configured API call as part of its process.
